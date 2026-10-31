@@ -5,193 +5,6 @@
 	(uuid "71ba3bc4-c2ec-451a-a7c6-3c2284a3fcf8")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x03"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x03_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016)
@@ -401,6 +214,291 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DM-OLED096-636:DM-OLED096-636"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -7.62 10.922 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "DM-OLED096-636"
+				(at -7.62 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "DM-OLED096-636:MODULE_DM-OLED096-636"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "0.96” 128 X 64 MONOCHROME GRAPHIC OLED DISPLAY MODULE - I2C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "Display Module"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "11.3 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "Package"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/DM-OLED096-636/Display+Module/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "2018-09-10"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/DM-OLED096-636/Display+Module/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "DM-OLED096-636"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Displaymodule"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "DM-OLED096-636_0_0"
+				(rectangle
+					(start -7.62 -7.62)
+					(end 7.62 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 7.62 180)
+					(length 5.08)
+					(name "VCC_IN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -870,6 +968,219 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Potentiometer"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "POT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1977,6 +2288,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 128.27) (xy 113.03 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29ab94c7-663f-46c0-9928-9ed493b5b505")
+	)
+	(wire
+		(pts
 			(xy 273.05 130.81) (xy 280.67 130.81)
 		)
 		(stroke
@@ -1984,16 +2305,6 @@
 			(type default)
 		)
 		(uuid "2a4b9c74-1342-48c4-a155-0e8ff23ac691")
-	)
-	(wire
-		(pts
-			(xy 99.06 121.92) (xy 109.22 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e6b87a2-a2f6-4e14-a8d4-796aa9c2876e")
 	)
 	(wire
 		(pts
@@ -2037,6 +2348,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 45.72) (xy 264.16 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48005678-3e10-4aad-b673-40574441855d")
+	)
+	(wire
+		(pts
 			(xy 273.05 113.03) (xy 273.05 114.3)
 		)
 		(stroke
@@ -2057,13 +2378,13 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 116.84) (xy 109.22 116.84)
+			(xy 262.89 50.8) (xy 264.16 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "533c0879-a6e5-404a-b615-36b0ed5ebcfe")
+		(uuid "4c563199-1731-441d-9b99-d8dd0efda448")
 	)
 	(wire
 		(pts
@@ -2107,6 +2428,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 58.42) (xy 264.16 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c7024c6-06fb-49d2-85c0-503cff34a9c5")
+	)
+	(wire
+		(pts
 			(xy 212.09 138.43) (xy 213.36 138.43)
 		)
 		(stroke
@@ -2147,16 +2478,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 53.34) (xy 217.17 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a2ef84f-93d9-4719-b951-8ee77eceecad")
-	)
-	(wire
-		(pts
 			(xy 256.54 130.81) (xy 273.05 130.81)
 		)
 		(stroke
@@ -2174,16 +2495,6 @@
 			(type default)
 		)
 		(uuid "a5850b75-d1bc-46b5-bd10-ac85c753fac7")
-	)
-	(wire
-		(pts
-			(xy 215.9 58.42) (xy 217.17 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aeffe7b3-a6e9-4beb-83f8-9b491fe90c4d")
 	)
 	(wire
 		(pts
@@ -2217,13 +2528,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 119.38) (xy 109.22 119.38)
+			(xy 113.03 119.38) (xy 113.03 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bab525a5-c809-4df3-9a59-e529e332cef5")
+		(uuid "d15f2e40-9c10-4d34-a22a-67d61fb5a45a")
 	)
 	(wire
 		(pts
@@ -2247,16 +2558,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 44.45) (xy 210.82 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd62973f-86b1-435f-9c5d-7bbf4b4673d7")
-	)
-	(wire
-		(pts
 			(xy 119.38 62.23) (xy 120.65 62.23)
 		)
 		(stroke
@@ -2277,6 +2578,26 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 53.34) (xy 264.16 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5814f5b-80a8-4cd2-9d8a-b48fc4ab624d")
+	)
+	(wire
+		(pts
+			(xy 107.95 124.46) (xy 109.22 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e689be69-c974-4868-9991-d59c32a31790")
+	)
+	(wire
+		(pts
 			(xy 156.21 115.57) (xy 157.48 115.57)
 		)
 		(stroke
@@ -2284,16 +2605,6 @@
 			(type default)
 		)
 		(uuid "eab829e9-4210-45f5-92c4-6a0c025318f3")
-	)
-	(wire
-		(pts
-			(xy 217.17 50.8) (xy 217.17 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eaeec059-6fed-4f31-b4d9-6150fcb4b6b5")
 	)
 	(wire
 		(pts
@@ -2317,16 +2628,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 55.88) (xy 217.17 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2c51a66-e7d0-4474-85c1-2f1dd583eeca")
-	)
-	(wire
-		(pts
 			(xy 138.43 58.42) (xy 138.43 59.69)
 		)
 		(stroke
@@ -2344,16 +2645,6 @@
 			(justify left bottom)
 		)
 		(uuid "0a9e71ee-f5e3-492f-a009-75a0b1a17f15")
-	)
-	(label "SDA"
-		(at 215.9 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "38d315bf-aead-461e-9173-ef9b823c51bc")
 	)
 	(label "BTN_START"
 		(at 212.09 127 180)
@@ -2395,25 +2686,15 @@
 		)
 		(uuid "588fc019-7440-49a1-8181-7d9b583a7423")
 	)
-	(label "POT"
-		(at 107.95 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6bb275ad-1f37-4be2-9846-bc1bd9260bf3")
-	)
 	(label "SCL"
-		(at 215.9 55.88 180)
+		(at 264.16 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "6f517be2-2cb2-4d59-997f-58fe020073d8")
+		(uuid "5f169228-e735-4140-9488-7040f1ed52bb")
 	)
 	(label "POT"
 		(at 212.09 123.19 180)
@@ -2465,6 +2746,16 @@
 		)
 		(uuid "c350a404-fa88-49cf-b00a-3b328b2d0dce")
 	)
+	(label "SDA"
+		(at 264.16 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d25770a0-d82a-45e6-bb78-cbd724b02089")
+	)
 	(label "BUZZER"
 		(at 156.21 115.57 180)
 		(effects
@@ -2484,6 +2775,16 @@
 			(justify right bottom)
 		)
 		(uuid "ebd75752-e7c7-446c-ac23-4948a743c86f")
+	)
+	(label "POT"
+		(at 107.95 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ee7d35c8-bd5d-4c00-b034-699e3282bb66")
 	)
 	(label "SCL"
 		(at 215.9 74.93 180)
@@ -2568,6 +2869,84 @@
 			(project "Schematics KiCad"
 				(path "/71ba3bc4-c2ec-451a-a7c6-3c2284a3fcf8"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 113.03 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "066244fd-9aef-4080-b98b-bb4cfacc43d8")
+		(property "Reference" "#PWR010"
+			(at 113.03 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 113.03 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 113.03 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d69f1ad6-d874-4d2e-b4dc-802d53181d27")
+		)
+		(instances
+			(project "Schematics KiCad"
+				(path "/71ba3bc4-c2ec-451a-a7c6-3c2284a3fcf8"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -2812,8 +3191,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 114.3 119.38 0)
+		(lib_id "power:+3V3")
+		(at 264.16 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2822,31 +3201,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1668ee10-1b0e-4359-849c-1b8076df9a21")
-		(property "Reference" "J3"
-			(at 116.84 118.1099 0)
+		(uuid "222ced7e-5b43-49f4-ab8c-25a7c1434be8")
+		(property "Reference" "#PWR018"
+			(at 264.16 49.53 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Slide_Pot_Module"
-			(at 116.84 120.6499 0)
+		(property "Value" "+3V3"
+			(at 264.16 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal"
-			(at 114.3 119.38 0)
+		(property "Footprint" ""
+			(at 264.16 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2857,7 +3235,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 119.38 0)
+			(at 264.16 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2867,8 +3245,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 114.3 119.38 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 264.16 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2877,20 +3255,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "3"
-			(uuid "3a4ebeab-394e-4e3c-97e1-08f8accd58c8")
 		)
 		(pin "1"
-			(uuid "253ddf26-8db1-4e58-924f-75ebbc5776db")
-		)
-		(pin "2"
-			(uuid "398f0dfa-1bca-4ed2-8383-75e7b1820ad1")
+			(uuid "591b0b89-37b1-4c55-b4f6-f262f3de72d3")
 		)
 		(instances
 			(project "Schematics KiCad"
 				(path "/71ba3bc4-c2ec-451a-a7c6-3c2284a3fcf8"
-					(reference "J3")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -2969,84 +3341,6 @@
 			(project "Schematics KiCad"
 				(path "/71ba3bc4-c2ec-451a-a7c6-3c2284a3fcf8"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 99.06 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2eb0eb3f-783b-4076-8c69-2d2ab3cdc678")
-		(property "Reference" "#PWR014"
-			(at 99.06 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 99.06 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cd88ed43-9104-4430-ab20-bc6b841658c9")
-		)
-		(instances
-			(project "Schematics KiCad"
-				(path "/71ba3bc4-c2ec-451a-a7c6-3c2284a3fcf8"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -3505,84 +3799,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 201.93 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "757a4f58-b799-4649-966a-7f4f6f53ef7d")
-		(property "Reference" "#PWR010"
-			(at 201.93 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 201.93 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 201.93 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1e015849-2415-4f10-bda2-600e0f14b415")
-		)
-		(instances
-			(project "Schematics KiCad"
-				(path "/71ba3bc4-c2ec-451a-a7c6-3c2284a3fcf8"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 105.41 82.55 0)
 		(unit 1)
@@ -3824,7 +4040,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 210.82 44.45 0)
+		(at 113.03 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3833,9 +4049,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "857b3233-01e5-49a9-a523-994f6e66c0fe")
+		(uuid "86f67dbc-1aa2-40ad-a5fe-3f3f7dda93ed")
 		(property "Reference" "#PWR09"
-			(at 210.82 50.8 0)
+			(at 113.03 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3846,7 +4062,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.82 49.53 0)
+			(at 113.03 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3856,7 +4072,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 44.45 0)
+			(at 113.03 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3867,7 +4083,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 44.45 0)
+			(at 113.03 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3878,7 +4094,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 210.82 44.45 0)
+			(at 113.03 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3889,7 +4105,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "cca4fd48-9c17-43b5-9c9d-1a4ab8adb27d")
+			(uuid "05ab60f0-f0ad-46d6-ad01-d2f04bd28469")
 		)
 		(instances
 			(project "Schematics KiCad"
@@ -4051,84 +4267,6 @@
 			(project "Schematics KiCad"
 				(path "/71ba3bc4-c2ec-451a-a7c6-3c2284a3fcf8"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 99.06 119.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c282c16-a14a-433f-b608-e616fea1171f")
-		(property "Reference" "#PWR013"
-			(at 99.06 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 99.06 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 99.06 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6e8e5357-55b5-49dd-abb6-f7bf498e36f2")
-		)
-		(instances
-			(project "Schematics KiCad"
-				(path "/71ba3bc4-c2ec-451a-a7c6-3c2284a3fcf8"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4459,6 +4597,124 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 113.03 124.46 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd4b325a-bced-4c1f-b934-43225f37aeca")
+		(property "Reference" "RV1"
+			(at 115.57 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 115.57 125.7299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTA6043_Single_Slide"
+			(at 113.03 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 113.03 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 113.03 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 113.03 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 113.03 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fd6cc762-7680-4610-8049-56a02443a339")
+		)
+		(pin "3"
+			(uuid "d31e81a0-8ab1-412e-bab2-31a105239679")
+		)
+		(pin "2"
+			(uuid "5e07d931-9f33-47f7-8499-9481023a40e1")
+		)
+		(instances
+			(project "Schematics KiCad"
+				(path "/71ba3bc4-c2ec-451a-a7c6-3c2284a3fcf8"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 119.38 57.15 0)
 		(unit 1)
@@ -4697,6 +4953,304 @@
 		)
 	)
 	(symbol
+		(lib_id "DM-OLED096-636:DM-OLED096-636")
+		(at 250.19 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4c674eb-7381-4541-b3dc-479ba3b18bd1")
+		(property "Reference" "U2"
+			(at 250.19 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OLED_128x64"
+			(at 250.19 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Other_Components:MODULE_DM-OLED096-636"
+			(at 250.19 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.96” 128 X 64 MONOCHROME GRAPHIC OLED DISPLAY MODULE - I2C"
+			(at 250.19 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Display Module"
+			(at 250.19 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "11.3 mm"
+			(at 250.19 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "Package"
+			(at 250.19 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 250.19 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/DM-OLED096-636/Display+Module/view-part/?ref=eda"
+			(at 250.19 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 250.19 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "2018-09-10"
+			(at 250.19 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DM-OLED096-636/Display+Module/view-part/?ref=snap"
+			(at 250.19 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "DM-OLED096-636"
+			(at 250.19 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 250.19 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Displaymodule"
+			(at 250.19 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "4"
+			(uuid "c770d954-629f-4269-ad7c-584e13a7938b")
+		)
+		(pin "1"
+			(uuid "8cc33d01-3b59-4992-b0ef-a9144bfd4d5d")
+		)
+		(pin "2"
+			(uuid "3db9eec8-2924-4343-bd95-97beb3328c7c")
+		)
+		(pin "3"
+			(uuid "33a9d56a-e47e-4da9-a255-7ef1d9b694fe")
+		)
+		(instances
+			(project "Schematics KiCad"
+				(path "/71ba3bc4-c2ec-451a-a7c6-3c2284a3fcf8"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 264.16 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6dc7a14-e01d-4bf3-96aa-870532fc2feb")
+		(property "Reference" "#PWR019"
+			(at 264.16 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 264.16 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 264.16 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b2779e06-a9c5-4b92-a314-8c5374612671")
+		)
+		(instances
+			(project "Schematics KiCad"
+				(path "/71ba3bc4-c2ec-451a-a7c6-3c2284a3fcf8"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 153.67 54.61 0)
 		(unit 1)
@@ -4851,94 +5405,6 @@
 			(project "Schematics KiCad"
 				(path "/71ba3bc4-c2ec-451a-a7c6-3c2284a3fcf8"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 222.25 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7fca4ca-13d5-43b3-8d2b-d598f630d057")
-		(property "Reference" "J1"
-			(at 224.79 53.3399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OLED_128x64"
-			(at 224.79 55.8799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
-			(at 222.25 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 222.25 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b53a4194-e5d7-4a3a-8b0f-e98833c0a421")
-		)
-		(pin "4"
-			(uuid "80181535-605e-4ed7-bbd5-3f08736774ff")
-		)
-		(pin "1"
-			(uuid "1b36eec6-37a9-421a-9123-46ce9ea681b1")
-		)
-		(pin "3"
-			(uuid "ecde5758-0578-4cfe-ae4c-4fa52311cd98")
-		)
-		(instances
-			(project "Schematics KiCad"
-				(path "/71ba3bc4-c2ec-451a-a7c6-3c2284a3fcf8"
-					(reference "J1")
 					(unit 1)
 				)
 			)
