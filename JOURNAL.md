@@ -34,7 +34,7 @@
 ![image](https://halflife.hackclub-assets.com/sessions/s5X6uAidfBv2Me3zVHdgxREVUKqtvsIM/dda325bac434817bf997e48cfd93428835b498ed7f5baa76c7612d4ec08e170e.png)
 
 ## What I will do next
-I have not actually started designing anything on KiCad yet, so I will do that tomorrow.
+I have not actually started designing anything on KiCad yet, so I will do that next time.
 
 ### 2026-10-31: placeholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderpl
 
