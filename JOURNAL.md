@@ -15,7 +15,7 @@
 ## Contents
 
 1. [2026-10-28: # Displays!](#2026-10-28-displays)
-2. [2026-10-31: placeholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderpl](#2026-10-31-placeholderplaceholderplaceholderplaceholderplace)
+2. [2026-10-31: # PCB Progress](#2026-10-31-pcb-progress)
 
 ## Design
 
@@ -36,32 +36,99 @@
 ## What I will do next
 I have not actually started designing anything on KiCad yet, so I will do that next time.
 
-### 2026-10-31: placeholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderpl
+### 2026-10-31: # PCB Progress
 
 **6h**
 
-placeholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholderplaceholder
+# PCB Progress
+Before this, I had only logged one hour on coming up with the idea for this week's project. Today, I actaully started on finalizing some of the design!
+## What I did
+### Schematics and PCB
 
-![Screenshot 2026-10-31 102952](https://halflife.hackclub-assets.com/sessions/s5X6uAidfBv2Me3zVHdgxREVUKqtvsIM/16831ff44fb0f1637f59137a40cb12b48a920eec9cca87544d0b637d244f80d3.png)
+I put all the components on the schematics and wired them.
 
-![Screenshot 2026-10-31 102838](https://halflife.hackclub-assets.com/sessions/s5X6uAidfBv2Me3zVHdgxREVUKqtvsIM/3d1900e0e297e865250b2251c4aa7ccf1a0867793b106dfd6c6505bf5e452415.png)
+![image](https://halflife.hackclub-assets.com/sessions/s5X6uAidfBv2Me3zVHdgxREVUKqtvsIM/30aff5798813a7eb17620ae78418a4239dea8a9ea9c5894932c100fa147395ed.png)
 
-![Screenshot 2026-10-31 102756](https://halflife.hackclub-assets.com/sessions/s5X6uAidfBv2Me3zVHdgxREVUKqtvsIM/20fe3800d64147bae1affa3721fac237859e285ef7871607dff26fd0dff61933.png)
+**Slider**
 
-![Screenshot 2026-10-31 095837](https://halflife.hackclub-assets.com/sessions/s5X6uAidfBv2Me3zVHdgxREVUKqtvsIM/ea6227731e92ec5a1fd62279023151805a4fe9a94531831c8addbe1e1faf3a86.png)
+For some reason, the slider troubled me the most... I was trying to rely all of my components order on Alibaba, but I could not find a product listing for a Bourns slide potentiometer in which it was sold minimum by one unit (I was NOT going to buy 1000 sliders). At the beginning, I did find an alternative on Alibaba, which was like a yellow slider already on a red PCB, and apparently it was used for projects using Arduino.
+
+![Screenshot 2026-10-30 181300](https://halflife.hackclub-assets.com/sessions/s5X6uAidfBv2Me3zVHdgxREVUKqtvsIM/5020868438fa4eec9187fb07a99b2c50deb95db8850868b9972f57cfda008a0e.png)
+
+However, this caused trouble in finding the correct schematic symbol and then the footprint. I did not want to risk placing the component innacurately, so I had to find an alternative.
+
+![Untitled drawing 25](https://halflife.hackclub-assets.com/sessions/s5X6uAidfBv2Me3zVHdgxREVUKqtvsIM/cde06a18192e4cec00c3ec2076b180531a39251ced783e931a0ce7c25e3915c0.png)
+
+The alternative was simply to order one slider from another supplier, so eventually, I found a listing on DigiKey, in which they sold the slide potentiometer I was looking for in units (phew).
+
+![image](https://halflife.hackclub-assets.com/sessions/s5X6uAidfBv2Me3zVHdgxREVUKqtvsIM/0c6d42cb47573687fcc65b2dbf38e35d220c78098b12a39f5fd079284d9495c0.png)
+
+The slider was a standard one, so I after updating the BOM, I had no problem with the schematic symbol and the footprint on the PCB.
+
+![Untitled drawing 26](https://halflife.hackclub-assets.com/sessions/s5X6uAidfBv2Me3zVHdgxREVUKqtvsIM/fe2fc9dcd479b7ffdd55fe0e07376c1020e49c4d908ede34c26e563e522ec586.png)
+
+The first slider I was planning on use was longer in size, meaning that originally my PCB board (edge.cuts) was larger and the components were all spaced out, but now with the new Bourns slider in place, I was able to reduce the size of the board and make everything more compact.
+
+---
+
+** Footprints and 3D **
+
+The initial footprint that I had for the OLED was a simple, default 1x4 connector footprint. Again, I wanted to place the components accurately, so I wanted to have an actual, accurate footprint for the OLED. I searched online and I found a SnapMagic site that offered the footprint AND the 3D model to download. So that made it easier for me to place the components, meaning that I did not have to measure or even guess the positioning so they don't crash with each other.
+
+![Untitled drawing 27](https://halflife.hackclub-assets.com/sessions/s5X6uAidfBv2Me3zVHdgxREVUKqtvsIM/99365d9e22d633b130657ede8b9cef6c1263aff1b3eb8b5ff50b38a03590aaa2.png)
+
+Previously, I had already downloaded the footprint for the XIAO RP2040 I was going to use, so that was all set. I simply found a 3D model on GrabCad and added it!
+
+![image](https://halflife.hackclub-assets.com/sessions/s5X6uAidfBv2Me3zVHdgxREVUKqtvsIM/adc2689395cec79752dca0964b0ad4839bdad52620a6ef515e6651e36a38ffd2.png)
+
+For the AHT20 sensor, I realized pretty late that I was perhaps not using a standard version of the component; it was one I found on Alibaba... At least the listing gave me the dimensions, which enabled me to add my own kind of footprint (which is just a rectangle with the dimensions of the component drawn on f.silkscreen). However, I could not find a 3D model of it.
+
+![Untitled drawing 28](https://halflife.hackclub-assets.com/sessions/s5X6uAidfBv2Me3zVHdgxREVUKqtvsIM/0bb17f8d952d5a91d2d934e6d41f856eda0dab0aae47db8657497ccb76e2c452.png)
+
+The other more standard components, such as the pishbuttons, the resistors, capacitors, and the buzzer, already came with an accurate footprint and a corresponding 3D model. While the 3D render is not 100% complete, in my opinion, it does not look so bad!
 
 ![Screenshot 2026-10-31 095607](https://halflife.hackclub-assets.com/sessions/s5X6uAidfBv2Me3zVHdgxREVUKqtvsIM/f059ceb954caf2b65fb710766266748a9d8d87f1d8672c800a111139267eb6ed.png)
 
-![Screenshot 2026-10-31 094016](https://halflife.hackclub-assets.com/sessions/s5X6uAidfBv2Me3zVHdgxREVUKqtvsIM/42c7fe20ee24c0870d5c7b3d44f306cbc5d05361738665e9b86a39bfb92f85c7.png)
+---
 
-![Screenshot 2026-10-31 093922](https://halflife.hackclub-assets.com/sessions/s5X6uAidfBv2Me3zVHdgxREVUKqtvsIM/1f1f42f248b62ca7dffd6678172546b392c977e3bccd750224ab9ce1d6436df7.png)
+** Wiring**
 
-![Screenshot 2026-10-31 090727](https://halflife.hackclub-assets.com/sessions/s5X6uAidfBv2Me3zVHdgxREVUKqtvsIM/3b16009b17fcd9b3617d71fbb91e8235716796b488c6aff785312311562d4ca7.png)
+This project did not have many components (compared to my previous project, which used 10 pushbuttons) so the wiring was decently straightforeward. I connected all the signal and 3v3 pads first.
 
-![Screenshot 2026-10-31 085727](https://halflife.hackclub-assets.com/sessions/s5X6uAidfBv2Me3zVHdgxREVUKqtvsIM/c67be9a2be384afacd0f8c34650be347de0e7dff4604dc540273cbb4d95c26dc.png)
+![image](https://halflife.hackclub-assets.com/sessions/s5X6uAidfBv2Me3zVHdgxREVUKqtvsIM/e37382adf4fcb2905e2a28a76f64835f019c10b9bf994f3cb4c9bc1093d07ca7.png)
 
-![Screenshot 2026-10-31 085712](https://halflife.hackclub-assets.com/sessions/s5X6uAidfBv2Me3zVHdgxREVUKqtvsIM/093cf625a466f046a987a6d380b8083e2acec70ada72439c3b9b2d7610505856.png)
+Then, I added a groundpour on the back side, so that I could simply drop a via from the GND pad on the XIAO.
 
-![Screenshot 2026-10-31 083131](https://halflife.hackclub-assets.com/sessions/s5X6uAidfBv2Me3zVHdgxREVUKqtvsIM/1ffc78ecccaebc33434e39e01eebec5e4a0aaeb140920880079e6c946bed4b3a.png)
+![image](https://halflife.hackclub-assets.com/sessions/s5X6uAidfBv2Me3zVHdgxREVUKqtvsIM/a9ab1e6b107711b7910fa8decca4e05a4ff889cdedcef5b0c95b3d87143cbd53.png)
 
-![Screenshot 2026-10-31 083045](https://halflife.hackclub-assets.com/sessions/s5X6uAidfBv2Me3zVHdgxREVUKqtvsIM/db93112f4bee993720e65ff68c6ea6322c485c2f4d7a5dcb8e455679be1b69c0.png)
+I also added vias where connections would intercept. I used 0.5mm connections for the 3v3, and for the rest I used 0.25mm.
+
+---
+
+**Decoration**
+
+As a final touch, I added a logo on the PCB board!! This is soemthing I forgot to do in the previous project, so I am happy I remembered :) I quickly designed the logo on Canva (took me like 5 minutes) and then, placed in the empty spot below the OLED.
+
+![image](https://halflife.hackclub-assets.com/sessions/s5X6uAidfBv2Me3zVHdgxREVUKqtvsIM/85625b41ed9231eebd0bf6b32904eea8cdf9482a5938962e17929060ec3aaaf1.png)
+
+---
+
+**Checking for errors and Gerbers**
+
+I should also mention that I ran the ERC in the schematics and the DRC in the PCB multiple times throughout the design process, and I did not get any major errors. I instead got a bunch of warning, but those were relating to the footprints and the slikscreen, so I didn't worry about those.
+
+Since I don't plan on changing the PCB design anymore, I went ahead with producing the manufacuring files.
+
+## Conclusion
+I don't know why, but this project's PCB design actually looks aesthetically cool 🥹 Maybe it's the combination of colors (red, blue and yellow), or maybe it's the logo, but it is something!
+
+![Screenshot 2026-11-01 082854](https://halflife.hackclub-assets.com/sessions/s5X6uAidfBv2Me3zVHdgxREVUKqtvsIM/96c9eade975a1c1305a917d9af8c8eb4c7fefaaf6bec1b3c92a5add03e9d0315.png)
+
+![Screenshot 2026-11-01 082539](https://halflife.hackclub-assets.com/sessions/s5X6uAidfBv2Me3zVHdgxREVUKqtvsIM/23c9d2205d7f45db9257c63e083e1368f2b8d8c6edd16f4f640e33e43e387994.png)
+
+All I have to do now is:
+- Code the firmware
+- Revise and finalize the BOM
+- Create and write the README
+- Journal my last session of the week...
+- ... and Submit!
